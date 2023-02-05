@@ -10,7 +10,7 @@ main()
     cout << "enter number2 :";
     cin >> number2;
     gcd=calculategcd(number1, number2);
-    cout<<gcd<<endl;
+    cout<<gcd<<endl; 
     cout << calculatelcm(number1, number2, gcd);
 }
 int calculategcd(int number1, int number2)

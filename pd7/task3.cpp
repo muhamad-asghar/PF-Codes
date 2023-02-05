@@ -18,13 +18,13 @@ void upper(int rows)
         for(int g=rows ;g>=0;g--)
         {
             cout<<" ";
-            
+        } 
              for (int j = 1; j <= i; j++)
         {
            cout<<"*";
            
         }
-        }
+        
         
        
         cout <<endl;

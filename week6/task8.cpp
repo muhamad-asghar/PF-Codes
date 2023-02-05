@@ -16,11 +16,11 @@ main()
     total = money(category, budget, people);
     if (total > 0)
     {
-        cout << "yes! your remaining money is" << total;
+        cout << "yes! your remaining money is  " << total;
     }
     else
     {
-        cout << "no! you need" << (-(total));
+        cout << "no! you need  " << (-(total));
     }
 }
 float money(string category, float budget, int people)

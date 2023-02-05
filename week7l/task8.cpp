@@ -25,25 +25,24 @@ float money(int age, float inher)
     float y = 0;
     float z;
     float sum;
-    float total=19;
+    float total = 19;
     for (int n = 1800; n <= age; n++)
     {
-        total++;
+
         if (n % 2 == 0)
         {
             x = x + 12000;
         }
-    
+
         else
         {
-           
-            y = y + 12000 + 50*(total);
-        
+
+            y = y + 12000 + 50 * (total);
+            total = total + 2;
         }
     }
 
     sum = y + x;
-    ;
 
     z = inher - sum;
     return z;
