@@ -8,16 +8,19 @@ main()
     cout << " enter pencil colors  ";
     cin >> size;
     string array[size];
-    for (int i = 1; i <= size; i++)
+    for (int i = 0; i < size; i++)
     {
         cout << "enter colors :";
         cin >> array[i];
-        s = i;
     }
-    
-
-   
-    x=1*size-1;
+    for (int idx = 1; idx < size; idx++)
+    {
+        if (array[idx - 1] != array[idx])
+        {
+            x++;
+            cout << x << endl;
+        }
+    }
 
     int y = size * 2;
     int w = x + y;
