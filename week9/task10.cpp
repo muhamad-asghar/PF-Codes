@@ -5,7 +5,7 @@ main()
     string name;
     getline(cin, name);
     int count=0;
-    for(int idx=count)
+    for(int idx=count;)
     {
         cout<<name[idx]<<" ";
     }

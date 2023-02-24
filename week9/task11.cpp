@@ -3,9 +3,10 @@ using namespace std;
 main()
 {
     string name;
-    int count= name.length();
+    
 
     getline(cin,name);
+    int count= name.length();
     cout<<count;
    if(count%2==0)
    {

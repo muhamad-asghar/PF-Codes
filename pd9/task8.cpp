@@ -18,7 +18,7 @@ main()
         if (array[idx - 1] != array[idx])
         {
             x++;
-            cout << x << endl;
+          
         }
     }
 

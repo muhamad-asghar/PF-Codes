@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+int numbers[20];
+bool check(int cycle);
+main()
+{
+    int size;
+    cout<<"enter array size :";
+    cin>>size;
+    for(int i=0;i<size;i++)
+    {
+        cout<<"enter element :";
+        cin>>numbers[i];
+    }
+    int cycle;
+    cout<<"enter cycle :";
+    cin>>cycle;
+    check(cycle);
+
+}
+bool check(int cycle)
+{
+        for(int i=0;i<cycle;i++)
+        {
+            
+
+        }
+    
+
+    
+}
